@@ -8,7 +8,7 @@ chỉ những file được add(có màu xanh nghĩa là đã được track ) c
 git add tên-file : để thêm file đó vào 
 (git add .): để thêm tất cả
 
-git commit -m 'tên-version': cho tất cả những gì có đã được track vào làm 1 folder quản lí phiên bản ghi lại những thay đổi đó
+git commit -m 'tên-version': cho tất cả những gì có đã được track vào làm 1 folder quản lí phiên bản ghi lại những thay đổi đó ...
 
 git log : xem các commits đã được tạo
 

@@ -1,0 +1,10 @@
+git init: khởi tạo file git để quản lí trong thư mục cần quản lí
+
+git status: kiểm tra trạng thái file đang quản lí khi tạo thêm file hay làm gì khác
+
+track: theo dõi
+chỉ những file được add(có màu xanh nghĩa là đã được track ) còn những file màu đỏ nghĩa là chưa được track 
+
+git add tên-file : để thêm file đó vào 
+
+git commit -m 'tên-version': cho tất cả những gì có đã được track vào làm 1 folder quản lí phiên bản ghi lại những thay đổi đó

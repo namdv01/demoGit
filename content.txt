@@ -31,3 +31,13 @@ git reset HEAD tên-file : trả lại file từ chế độ traging về workin
 git checkout -- tên-file = git restore tên-file
 git reset HEAD tên-file  = git restore --staged tên-file
 )
+
+
+branching: tạo nhánh mới
+merging: ghép nhánh
+
+git branch : xem các nhánh và nhánh nào màu xanh là vị trí nhánh mình đang đứng
+
+
+luôn có 1 nhánh chính master
+

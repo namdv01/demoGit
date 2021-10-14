@@ -59,5 +59,15 @@ VD:chắc chắn chuyển về nhánh master rồi merge các commit của dev v
 git checkout master
 git merge dev
 
-git branch -D tên-nhánh : xóa nhánh
+git branch -D tên-nhánh : xóa nhánh 
+
+
+nhóm các câu reset để thay đôi commit hiện thời
+git reset --soft mã-hash : trở về phiên bản commit có mã-hash đó và phiên bản sẽ chuyển về dạng ở staging và chờ commit 
+
+git reset --mixed mã-hash : tương tự như --soft nhưng sẽ ở dạng working
+
+git reset --hard mã-hash : tương tự như --soft nhưng sẽ bị xóa mất luôn
+
+git revert mã-hash : tạo ra 1 commit lưu lại commit đã cũ từ nhiều lần trc để lên đầu,đc sử dụng vì ko thể reset cho những cái cũ hơn 2 phiên bản nhưng tránh sử dụng 
 

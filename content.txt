@@ -17,3 +17,10 @@ git show id : id là mã số dòng commit để xem chi tiết lần thay đổ
 git diff : chỉ hiển thị ra những file modified nghĩa là có thay đổi từ những phiên bản trước mà ko tính khi các file add sau
 
 phím tắt : ctrl L : để xóa màn hình hiện thời 
+
+working area: nơi làm việc (nơi chứa các modified)
+stageing area: nơi lưu các file được add nhưng chưa đc commit nên khi commit chỉ những file tại đây mới được commit
+repository: nơi lưu trữ các commit
+
+gitk: == git log nhưng ở dạng hiển thị cửa sổ giao diện
+git checkout -- tên-file : ctrl z trở về phiên bản commit trước với những file chưa đc add

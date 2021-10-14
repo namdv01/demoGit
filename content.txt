@@ -39,5 +39,16 @@ merging: ghép nhánh
 git branch : xem các nhánh và nhánh nào màu xanh là vị trí nhánh mình đang đứng
 
 
-luôn có 1 nhánh chính master
+luôn có 1 nhánh chính master và các nhánh sẽ trỏ về commit cuối cùng
+
+checkout nghĩa là chuyển hướng sang nhánh đó để làm việc
+git checkout -b tên-nhánh: tạo và chuyển hướng hiện tại sang nhánh đó
+
+git checkout -b 'tên-nhánh': tạo và chuyển nhánh sang nhánh khác
+
+git checkout 'tên-nhánh': chuyển hướng nhánh
+
+khi đang ở nhánh khác nhánh master thì các commit đó chỉ thuộc về phần nhánh đó và master chỉ lưu những thứ chắc chắn 
+
+sau đó muốn lưu các commit thay đổi thì sử dụng merge để add nhánh mới vào master thì các commit thuộc nhánh đó cũng sẽ thuộc về master
 

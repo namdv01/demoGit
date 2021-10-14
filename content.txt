@@ -14,4 +14,6 @@ git log : xem các commits đã được tạo
 
 git show id : id là mã số dòng commit để xem chi tiết lần thay đổi đó
 
+git diff : chỉ hiển thị ra những file modified nghĩa là có thay đổi từ những phiên bản trước mà ko tính khi các file add sau
+
 phím tắt : ctrl L : để xóa màn hình hiện thời 

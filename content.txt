@@ -71,3 +71,11 @@ git reset --hard mã-hash : tương tự như --soft nhưng sẽ bị xóa mất
 
 git revert mã-hash : tạo ra 1 commit lưu lại commit đã cũ từ nhiều lần trc để lên đầu,đc sử dụng vì ko thể reset cho những cái cũ hơn 2 phiên bản nhưng tránh sử dụng 
 
+
+tạo thư mục .gitignore : để tạo ra file lưu tên những file ko muốn hiển thị lúc add và ko cần commit
+
+
+------------------------------------------
+git remote add origin tên-đường-dẫn-github: đây là tạo kết nối tới github
+
+(thử thay đổi trong git nha !!!!!!!!!!!!!!!!)

@@ -52,3 +52,12 @@ khi đang ở nhánh khác nhánh master thì các commit đó chỉ thuộc v�
 
 sau đó muốn lưu các commit thay đổi thì sử dụng merge để add nhánh mới vào master thì các commit thuộc nhánh đó cũng sẽ thuộc về master
 
+muốn chuyển các commit từ 1 nhánh sang nhánh khác thì cần làm 2 việc:
+1.chuyển hiện tại về nhánh gốc,nhánh sẽ được làm gốc
+2.chuyển nhánh mới về nhánh gốc
+VD:chắc chắn chuyển về nhánh master rồi merge các commit của dev về master
+git checkout master
+git merge dev
+
+git branch -D tên-nhánh : xóa nhánh
+

@@ -24,3 +24,10 @@ repository: nơi lưu trữ các commit
 
 gitk: == git log nhưng ở dạng hiển thị cửa sổ giao diện
 git checkout -- tên-file : ctrl z trở về phiên bản commit trước với những file chưa đc add
+
+git reset HEAD tên-file : trả lại file từ chế độ traging về working
+
+(Ngoài ra có thể thay thế 
+git checkout -- tên-file = git restore tên-file
+git reset HEAD tên-file  = git restore --staged tên-file
+)
